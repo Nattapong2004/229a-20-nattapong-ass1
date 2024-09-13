@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 
 class IronMan
@@ -35,6 +35,7 @@ class IronMan
         Debug.Log($"****** {Name} update their strength to {armorStrength}");
     }
 
+    //คำนวณดาเมจที่โดนโจมตี + บอกว่าHpเหลือเท่าไหร่
     public void Takedamege(int damege)
     {
         damege = UnityEngine.Random.Range(10, 21);
